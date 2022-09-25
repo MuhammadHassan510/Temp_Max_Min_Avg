@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Max Min Avg And Threshold Checker</title>
+</head>
+<body>
+    <h1>Temperature Max Min Avg & Threshold Checker</h1>
+
+    <script>
+
+        let temp = [23, 25, 30, 32, 27, 25, 31, 28, 26, 29, 33, 24, 28, 22, 30, 32, 27, 25, 31, 28, 26, 29, 33, 24]
+
+        min = Math.min(...temp);
+        max = Math.max(...temp);
+        avarage = Math.average(...temp);
+
+        console.log(min); // 👉️ 22
+        console.log(max); // 👉️ 33
+        console.log(average); // 👉️ 33
+        
+
+
+    </script>
+</body>
+</html>
